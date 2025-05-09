@@ -8,3 +8,5 @@
 
 
 kernel,vendor,kernel-6.1需放置在同一目录下
+
+编译出的Image文件与patch_linux放在一个地方，chmod +x patch_linux 及./patch_linux
