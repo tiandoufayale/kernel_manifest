@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="github-tiandoufayale" fetch="https://github.com/tiandoufayale/" />
+  <remote name="gitlab-snnbyyds" fetch="https://gitlab.com/snnbyyds/" />
+  <default revision="main" remote="github" sync-j="4" />
+  <project path="prebuilts/clang/host/linux-x86/clang" name="clang-r487747.git" remote="gitlab-snnbyyds" revision="master"/>
+  <project path="gnu" name="arm-gnu-toolchain-14.2.rel1-x86_64-aarch64-none-linux-gnu" remote="github-tiandoufayale" revision="main" />
+  <project path="kernel-6.1" name="android_kernel_oppo_mt6897" remote="github-tiandoufayale" revision="onepluspad" />
+  <project path="kernel" name="android_kernel_modules_and_devicetree_oppo_mt6897" remote="github-tiandoufayale" revision="oppo/mt6897_v_15.0.0_oppopad3" />
+  <project path="vendor" name="android_kernel_modules_and_devicetree_oppo_mt6897" remote="github-tiandoufayale" revision="oppo/mt6897_v_15.0.0_oppopad3" />
+</manifest>
